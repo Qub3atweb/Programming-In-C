@@ -11,5 +11,7 @@ while (sum < SLUTSUMMA)
     lon = 2*lon;
     dagar++;
 }
-printf("Han måste jobba %d dagar för att nå %0.f\n", dagar, SLUTSUMMA);
+printf("Han måste jobba %d dagar för att nå %0.f kr\n", dagar, SLUTSUMMA);
+
+return 0;
 }
